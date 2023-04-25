@@ -17,7 +17,7 @@
 
 html{  
     scroll-behavior: smooth;
-    scroll-padding-top: 220px;
+    scroll-padding-top: 20px;
     transition: .5s ease;
 }
 
@@ -26,7 +26,6 @@ body.dark-on{
 }
 
 .nav-bar{
-    position: fixed;
     display: flex;
     flex-direction: column;
     height: 200px;
@@ -272,6 +271,9 @@ body.dark-on{
 }
 
 @media (max-width: 520px){
+    html{
+        scroll-padding-top: 20px;
+    }
     .nav-bar{
         height: 150px;
 
@@ -293,7 +295,7 @@ body.dark-on{
         font-size: .7rem;
     }
 
-    .nav-bar .icon{
+    .nav-bar .icon, .nav-bar .sol{
         font-size: 1.3rem;
         top: 20px;
     }
@@ -308,7 +310,7 @@ body.dark-on{
 }
 
 @media (max-width:390px){
-    .nav-bar .icon{
+    .nav-bar .icon, .nav-bar .sol{
         left: 5px;
     }
 }
