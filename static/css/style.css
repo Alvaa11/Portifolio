@@ -153,6 +153,10 @@ body.dark-on{
     color: var(--blu);
 }
 
+img{
+    margin: 20px 0;
+}
+
 #cont{
     margin-top: 100px;
     margin-bottom: 0;
